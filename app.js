@@ -1,9 +1,14 @@
-
-function go(url){
-const frame = document.getElementById("view")
-frame.src = url
+function goDirect(){
+window.location.href =
+"https://www.instagram.com/direct/inbox/"
 }
 
-if ('serviceWorker' in navigator) {
-navigator.serviceWorker.register('service-worker.js')
+function goUpload(){
+window.location.href =
+"https://www.instagram.com/create/select/"
+}
+
+function goProfile(){
+window.location.href =
+"https://www.instagram.com/accounts/edit/"
 }

@@ -1,45 +1,27 @@
-
 body{
 margin:0;
-font-family:system-ui, sans-serif;
+font-family:system-ui;
 background:#f2f2f2;
-color:#111;
+color:#222;
 }
 
 header{
-padding:10px;
+padding:14px;
 text-align:center;
-background:#ffffff;
 border-bottom:1px solid #ddd;
+background:white;
 }
 
-nav{
+.menu{
+padding:20px;
 display:flex;
-gap:8px;
-padding:10px;
-background:#fafafa;
-border-bottom:1px solid #ddd;
+flex-direction:column;
+gap:12px;
 }
 
 button{
-flex:1;
-padding:12px;
+padding:14px;
+font-size:16px;
 border:none;
-background:#e6e6e6;
-font-size:14px;
-}
-
-button:active{
-background:#d0d0d0;
-}
-
-main{
-height:calc(100vh - 110px);
-}
-
-iframe{
-width:100%;
-height:100%;
-border:none;
-background:white;
+background:#e5e5e5;
 }
