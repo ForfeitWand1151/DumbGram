@@ -1,8 +1,8 @@
 {
 "name": "DumbGram",
 "short_name": "DumbGram",
+"start_url": "/dumbgram/",
 "display": "standalone",
-"start_url": "/",
 "background_color": "#f3f3f3",
 "theme_color": "#f3f3f3"
 }
