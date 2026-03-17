@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minimal IG</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>Minimal IG</h1>
+</header>
+
+<nav>
+<button onclick="go('https://www.instagram.com/accounts/edit/')">Perfil</button>
+<button onclick="go('https://www.instagram.com/direct/inbox/')">Direct</button>
+<button onclick="go('https://www.instagram.com/create/style/')">Upload</button>
+</nav>
+
+<main>
+<iframe id="view" src="https://www.instagram.com/direct/inbox/" referrerpolicy="no-referrer"></iframe>
+</main>
+
+<script src="app.js"></script>
+
+</body>
+</html>
