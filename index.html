@@ -1,33 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<base href="/dumbgram/">
-
 <title>DumbGram</title>
 
 <link rel="manifest" href="manifest.json">
 <link rel="stylesheet" href="style.css">
 
 </head>
-
 <body>
 
 <header>DumbGram</header>
 
 <div class="menu">
-
-<button onclick="direct()">Direct</button>
-<button onclick="upload()">Upload</button>
-<button onclick="profile()">Perfil</button>
-
+<button onclick="openInstagram('direct')">Direct</button>
+<button onclick="openInstagram('upload')">Upload</button>
+<button onclick="openInstagram('profile')">Perfil</button>
 </div>
 
+<iframe id="instaView" src="" sandbox="allow-scripts allow-forms allow-same-origin"></iframe>
+
 <script src="app.js"></script>
-
 </body>
-
 </html>
